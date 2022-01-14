@@ -1,1 +1,3 @@
-# tcbdzienne
+# Oto moja strona w ramach projektu z przedmiotu X
+
+Celem mojej strony www jest to i to...
