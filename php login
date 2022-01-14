@@ -1,0 +1,409 @@
+<!--[if IE]><![endif]--><!DOCTYPE html><!--[if IE 8]><html class="no-js ie8 oldie" lang="en" prefix="og: http://ogp.me/ns/# og:book: http://ogp.me/ns/book# og:video: http://ogp.me/ns/video#"
+
+    
+        itemscope itemtype="http://schema.org/Book http://schema.org/ItemPage" data-login-url="/accounts/login/"
+data-offline-url="/"
+data-url="/library/view/php-7-solutions/9781484243381/html/332054_4_En_19_Chapter.xhtml"
+data-csrf-cookie="csrfsafari"
+data-highlight-privacy=""
+
+
+
+  data-archive="9781484243381"
+  data-publishers="Apress"
+
+
+
+  data-htmlfile-name="332054_4_En_19_Chapter.xhtml"
+  data-epub-title="PHP 7 Solutions: Dynamic Web Design Made Easy"
+  
+    
+	     data-epub-sample="true" data-debug=0 data-testing=0><![endif]--><!--[if gt IE 8]><!--><html class="no-js" lang="en" prefix="og: http://ogp.me/ns/# og:book: http://ogp.me/ns/book# og:video: http://ogp.me/ns/video#"
+
+    
+        itemscope itemtype="http://schema.org/Book http://schema.org/ItemPage" data-login-url="/accounts/login/"
+data-offline-url="/"
+data-url="/library/view/php-7-solutions/9781484243381/html/332054_4_En_19_Chapter.xhtml"
+data-csrf-cookie="csrfsafari"
+data-highlight-privacy=""
+
+
+
+  data-archive="9781484243381"
+  data-publishers="Apress"
+
+
+
+  data-htmlfile-name="332054_4_En_19_Chapter.xhtml"
+  data-epub-title="PHP 7 Solutions: Dynamic Web Design Made Easy"
+  
+    
+	     data-epub-sample="true" data-debug=0 data-testing=0><!--<![endif]--><head><meta charset="utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><meta name="author" content="Safari Books Online" /><meta name="format-detection" content="telephone=no"><meta http-equiv="cleartype" content="on"/><meta name="HandheldFriendly" content="True"/><meta name="MobileOptimized" content="320"/><meta name="apple-itunes-app" content="app-id=881697395, app-argument=safaridetail://9781484243381"/><meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, maximum-scale=1.0"/><meta property="twitter:account_id" content="4503599627559754" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1130.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script><link rel="apple-touch-icon" href="/static/images/apple-touch-icon.0c29511d2d72.png"/><link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"><link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'><title>19. Authenticating Users with a Database - PHP 7 Solutions: Dynamic Web Design Made Easy</title><link rel="stylesheet" href="/static/CACHE/css/output.68851547a55f.css" type="text/css" /><link rel="stylesheet" type="text/css" href="/static/css/annotator.e3b0c44298fc.css"/><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"><style type="text/css" title="ibis-book">
+    #sbo-rt-content a{text-decoration:none}#sbo-rt-content a:link,#sbo-rt-content a:active{color:#0176C3}#sbo-rt-content a:visited{color:#5f5f5f}#sbo-rt-content div{font-family:"Cambria","Minion Pro","Times New Roman","Times",serif;}#sbo-rt-content img{border:0;vertical-align:middle}#sbo-rt-content video{display:block;margin-top:1em;max-width:100%;text-indent:0;width:100%}#sbo-rt-content p{margin:0}#sbo-rt-content .Heading,#sbo-rt-content .SubHeading,#sbo-rt-content .ContextInformation,#sbo-rt-content .MainTitleSection,#sbo-rt-content .PartTitle,#sbo-rt-content .SeriesTitle,#sbo-rt-content .SeriesSubTitle,#sbo-rt-content .SubSeriesTitle,#sbo-rt-content .SubSeriesSubTitle,#sbo-rt-content .BookTitle,#sbo-rt-content .BookSubTitle,#sbo-rt-content .ForewordTitle,#sbo-rt-content .PrefaceTitle,#sbo-rt-content .BookAcknowledgmentsTitle,#sbo-rt-content .BookNotesTitle{text-align:left !important}#sbo-rt-content .Heading,#sbo-rt-content .SubHeading{display:block;font-weight:bold}#sbo-rt-content .ArticleContextInformation{border-bottom:1px solid;margin-bottom:.8em;padding-bottom:.3em}#sbo-rt-content .ArticleContextInformation .ContextInformation{display:block;font-size:80%}#sbo-rt-content .ArticleContextInformation .JournalTitle:after,#sbo-rt-content .ArticleContextInformation .JournalSubTitle:after{content:", "}#sbo-rt-content .ArticleCopyright{display:inline}#sbo-rt-content .ArticleCopyright .CopyrightComment,#sbo-rt-content .ArticleContextInformation .ArticleDOI{display:block}#sbo-rt-content .ChapterContextInformation{border-bottom:1px solid;margin-bottom:.8em;padding-bottom:.3em}#sbo-rt-content .ChapterContextInformation .ContextInformation{display:block;font-size:80%}#sbo-rt-content .ChapterCopyright .CopyrightComment{display:block}#sbo-rt-content .ChapterContextInformation .BookEdition:before{content:", "}#sbo-rt-content .ChapterContextInformation .ContextInformationAuthorEditorNames:after{content:", "}#sbo-rt-content .ChapterContextInformation .BookTitle{font-style:italic}#sbo-rt-content .ChapterContextInformation .SeriesTitle:before{content:", "}#sbo-rt-content .ChapterContextInformation .SeriesSubTitle:before{content:": "}#sbo-rt-content .ChapterContextInformation .ContextInformationVolumeNumber:before{content:" "}#sbo-rt-content .ChapterContextInformation .ChapterDOI{display:block}#sbo-rt-content .Categories{color:#666;margin-bottom:1em;margin-top:1em}#sbo-rt-content .ArticleCategory,#sbo-rt-content .ChapterCategory{font-size:1.2rem}#sbo-rt-content .ArticleSubCategory,#sbo-rt-content .ChapterSubCategory{font-size:1rem}#sbo-rt-content .MainTitleSection{font-weight:bold;margin-bottom:1.2em;margin-top:1.2em}#sbo-rt-content .ArticleSuperTitle{font-size:1.2rem}#sbo-rt-content .MainTitleSection .ArticleTitle,#sbo-rt-content .ForeignLanguageHeader .ArticleTitle,#sbo-rt-content .MainTitleSection .ChapterTitle,#sbo-rt-content .ForeignLanguageHeader .ChapterTitle{font-size:1.73rem;margin:0}#sbo-rt-content .ArticleSubTitle,#sbo-rt-content .ChapterSubTitle{font-size:1.2rem;padding-top:.2em}#sbo-rt-content div>.AuthorGroup .AuthorNames,#sbo-rt-content .BookBackmatter>.AuthorGroup .AuthorNames{font-size:100%;margin-bottom:1em;margin-top:1em;text-align:left !important}#sbo-rt-content .BookBackmatter>.AuthorGroup .AuthorNames{font-weight:bold}#sbo-rt-content .AuthorNames sup{font-size:70%}#sbo-rt-content .Prefix:after{content:" "}#sbo-rt-content .Suffix:before{content:" "}#sbo-rt-content .Degrees:before{content:", "}#sbo-rt-content .NativeName:before,#sbo-rt-content .Role:before{content:" ("}#sbo-rt-content .NativeName:after,#sbo-rt-content .Role:after{content:")"}#sbo-rt-content .AffiliationNumber{float:left;padding-right:.5em}#sbo-rt-content .AffiliationText{margin-left:2em}#sbo-rt-content .AffiliationHint{font-style:italic}#sbo-rt-content .AuthorNames .DeceasedSymbol:before{content:"†";padding-left:3px}#sbo-rt-content .AuthorNames .EqualContributionSymbol:before{content:"*";padding-left:3px}#sbo-rt-content .InstitutionMembers:before{content:" ("}#sbo-rt-content .InstitutionMembers:after{content:")"}#sbo-rt-content .AffiliationLegend .DeceasedSymbol:before{content:"†";display:inline-block;width:14px}#sbo-rt-content .AffiliationLegend .EqualContributionSymbol:before{content:"*";display:inline-block;width:14px}#sbo-rt-content .ClearBoth{clear:both;font-size:0;line-height:0 !important}#sbo-rt-content .Contact,#sbo-rt-content .AffiliationLegend{margin-bottom:1em;margin-top:1em}#sbo-rt-content .ContactIcon{background-image:url(envelope.png);background-repeat:no-repeat;background-size:contain;width:.8rem}#sbo-rt-content .AuthorNames .ContactIcon{display:inline-block}#sbo-rt-content .Contact .ContactIcon{float:left;margin-top:4px;margin-right:4px}#sbo-rt-content .ContactAuthorLine{padding-left:20px;font-weight:bold}#sbo-rt-content .ContactAdditionalLine{padding-left:20px}#sbo-rt-content .ContactType{font-weight:bold}#sbo-rt-content .ArticleHistory{margin-bottom:1em;margin-top:1em}#sbo-rt-content .HistoryLabel{font-weight:bold}#sbo-rt-content .History+.History{padding-left:.5em}#sbo-rt-content .ArticleOrChapterToc{border-top:1px solid #bbb;margin-top:1em;padding-top:1em}#sbo-rt-content .ArticleOrChapterToc .HeadingNumber{font-weight:bold;padding-right:.3em}#sbo-rt-content .Abstract{margin-top:1em}#sbo-rt-content .Abstract>.Heading{font-size:1em;margin:0}#sbo-rt-content .AbstractSection{margin-top:.3em}#sbo-rt-content .Heading+.AbstractSection{margin-top:0}#sbo-rt-content .AbstractSection>.Heading{font-size:1em;font-style:italic;font-weight:normal;margin:0}#sbo-rt-content .KeywordGroup{margin-top:1em}#sbo-rt-content .KeywordGroup .Heading{display:inline;font-size:1em;margin:0;padding-right:.5em}#sbo-rt-content .Keyword+.Keyword:before{content:" – "}#sbo-rt-content .ArticleExternalID{margin-top:1em}#sbo-rt-content .ArticleExternalIDLabel{font-weight:bold}#sbo-rt-content .ForeignLanguageHeader{border-top:1px solid #bbb;margin-top:1em}#sbo-rt-content .ForeignLanguageTitleSection{font-weight:bold;margin-bottom:1.2em;margin-top:1rem}#sbo-rt-content .AbbreviationGroup{margin-top:1em}#sbo-rt-content .ForeignLanguageHeader+.AbbreviationGroup{border-top:1px solid #bbb;margin-top:1em;padding-top:1em}#sbo-rt-content .AbbreviationGroup>.Heading{font-size:1em;margin:0}#sbo-rt-content .AbbreviationGroup .DefinitionList{margin-top:0;margin-bottom:0;padding-right:.1em;padding-top:.1em;padding-bottom:.1em}#sbo-rt-content .AbbreviationGroupSection>.Heading{font-size:1em;margin:0;padding-top:.2em}#sbo-rt-content .ArticleNote{margin-top:1em}#sbo-rt-content .ArticleNote>.Heading{font-size:1em;margin:0}#sbo-rt-content .ArticleNoteMotto{font-style:italic;margin-left:1.5em;margin-right:1.5em;text-align:right}#sbo-rt-content .Biography{display:block;margin-top:.8em;padding-bottom:0;width:100%}#sbo-rt-content .Loc .AuthorGroup .Biography{margin-top:0}#sbo-rt-content .Biography .FormalPara,#sbo-rt-content .Biography .BiographyFigure{display:block;margin-top:0;margin-bottom:0}#sbo-rt-content .Biography .BiographyFigure{float:right;margin-left:6px}#sbo-rt-content .Biography .Figure{border-bottom:none;margin-top:.5em;margin-bottom:0}#sbo-rt-content .Fulltext>.Para:first-of-type>.BlockQuote:first-child{margin-top:0}#sbo-rt-content .BlockQuote{margin:1em 1.5em}#sbo-rt-content .BlockQuote>.Heading{font-size:1em;margin-top:1em;margin-bottom:0;text-indent:0}#sbo-rt-content .BlockQuote>.Para{text-indent:0}#sbo-rt-content .Heading+.Para>.BlockQuote:first-child{margin-top:0}#sbo-rt-content .Caption,#sbo-rt-content .TableFooter{display:block;text-align:left}#sbo-rt-content .TableFooter .SimplePara+.SimplePara{text-indent:0}#sbo-rt-content .Caption{margin-top:.5em}#sbo-rt-content .CaptionContent{font-size:90%}#sbo-rt-content .TableFooter{margin-top:1em}#sbo-rt-content .Table .Caption{margin-top:.5em}#sbo-rt-content .Figure .Caption,#sbo-rt-content video+.Caption{margin-bottom:1em}#sbo-rt-content .Table .Caption{margin-bottom:.5em}#sbo-rt-content .CaptionNumber{font-style:italic;font-weight:bold;padding-right:.6em}#sbo-rt-content .CaptionContent>span.Heading{display:inline}#sbo-rt-content .CaptionContent>span.SimplePara{display:block}#sbo-rt-content .CaptionContent>.SimplePara:first-child,#sbo-rt-content .CaptionContent>.CaptionNumber+.SimplePara,#sbo-rt-content .CaptionContent>a+.SimplePara{display:inline;margin-top:0}#sbo-rt-content .Credit>.SimplePara{text-indent:1.5em}#sbo-rt-content .DefinitionList{margin-top:1em;margin-bottom:1em;padding:.1em}#sbo-rt-content .DefinitionList>.Heading{font-size:1rem;margin:0;text-indent:0}#sbo-rt-content dl{margin:0}#sbo-rt-content .DefinitionList:after{content:"";clear:both;display:table}#sbo-rt-content .Term{clear:both;float:left;font-style:italic;padding-right:1em;text-indent:0;vertical-align:top}#sbo-rt-content .Description{padding-bottom:.3em;margin-left:0}#sbo-rt-content .Description .Para:first-child{text-indent:0}#sbo-rt-content .Heading+.Para>div.DefinitionList:first-child{margin-top:0}#sbo-rt-content .EmphasisTypeBold{font-weight:bold}#sbo-rt-content .EmphasisTypeItalic{font-style:italic}#sbo-rt-content .EmphasisTypeUnderline{text-decoration:underline}#sbo-rt-content .EmphasisTypeDoubleUnderline{border-bottom-style:double}#sbo-rt-content .EmphasisTypeSmallCaps{font-variant:small-caps}#sbo-rt-content .EmphasisTypeBoldItalic{font-weight:bold;font-style:italic}#sbo-rt-content .EmphasisTypeBoldUnderline{font-weight:bold;text-decoration:underline}#sbo-rt-content .EmphasisTypeBoldDoubleUnderline{font-weight:bold;border-bottom-style:double}#sbo-rt-content .EmphasisTypeBoldSmallCaps{font-weight:bold;font-variant:small-caps}#sbo-rt-content .EmphasisTypeItalicUnderline{font-style:italic;text-decoration:underline}#sbo-rt-content .EmphasisTypeItalicDoubleUnderline{font-style:italic;border-bottom-style:double}#sbo-rt-content .EmphasisTypeItalicSmallCaps{font-style:italic;font-variant:small-caps}#sbo-rt-content .EmphasisTypeBoldItalicUnderline{font-weight:bold;font-style:italic;text-decoration:underline}#sbo-rt-content .EmphasisTypeBoldItalicDoubleUnderline{font-weight:bold;font-style:italic;border-bottom-style:double}#sbo-rt-content .EmphasisTypeBoldItalicSmallCaps{font-weight:bold;font-style:italic;font-variant:small-caps}#sbo-rt-content .EmphasisTypeUnderlineSmallCaps{text-decoration:underline;font-variant:small-caps}#sbo-rt-content .EmphasisTypeDoubleUnderlineSmallCaps{border-bottom-style:double;font-variant:small-caps}#sbo-rt-content .EmphasisFontCategoryNonProportional{font-family:"Courier New",Courier,monospace}#sbo-rt-content :not(.ParaTypeProgramcode)>.EmphasisFontCategoryNonProportional{font-size:95%}#sbo-rt-content .EmphasisFontCategorySansSerif{font-family:"Arial","Helvetica",sans-serif;font-size:75%}#sbo-rt-content .EmphasisTypeStrikethrough{text-decoration:line-through}#sbo-rt-content .Equation{display:block;text-indent:0;vertical-align:middle}#sbo-rt-content .NumberedEquation{display:table;width:100%}#sbo-rt-content .NumberedEquation .EquationWrapper{display:table-row}#sbo-rt-content .NumberedEquation .EquationContent{display:table-cell}#sbo-rt-content .EquationContent{margin-top:.5em;margin-bottom:0;width:100%;text-align:center;text-indent:0;vertical-align:middle}#sbo-rt-content .EquationContent div{margin-top:.5em}#sbo-rt-content .EquationContent .MediaObject{margin-left:auto;margin-right:auto}#sbo-rt-content .EquationContent img{background:white;max-width:100%}#sbo-rt-content .EquationNumber{display:table-cell;margin-bottom:.4em;text-align:right;vertical-align:middle;white-space:nowrap}#sbo-rt-content .EquationSourceXml{white-space:nowrap}#sbo-rt-content .InlineEquation img{background:white;vertical-align:text-top}#sbo-rt-content .Figure{margin-top:1em;margin-bottom:1em;margin-left:0;margin-right:0;text-align:center;text-indent:0}#sbo-rt-content .Figure img{height:auto;margin:0;max-width:100%;padding:2px}#sbo-rt-content .MediaObject{display:block;text-align:center}#sbo-rt-content .MediaObject:last-child{margin-bottom:1em}#sbo-rt-content .EquationContent>.MediaObject:last-child{margin-bottom:0}#sbo-rt-content .MediaObject+.MediaObject{margin-top:1em}#sbo-rt-content .FootnoteSection{border-top:1px solid #bbb;margin-top:1em}#sbo-rt-content .FootnoteSection>.Heading{font-size:1.44rem;margin-top:.8em;margin-bottom:.1em}#sbo-rt-content .Footnote{clear:both;font-size:90%;text-align:left}#sbo-rt-content .FootnoteNumber{float:left;padding-right:.5em}#sbo-rt-content .FootnoteParas>div{margin-left:1em;margin-top:.3em}#sbo-rt-content .FormalPara{margin-top:1em;margin-bottom:1em}#sbo-rt-content .FormalPara .Heading{font-size:1em;margin:0}#sbo-rt-content .FormalParaRenderingStyle1>.Heading{display:inline;padding-right:1em}#sbo-rt-content .FormalParaRenderingStyle2>.Heading{display:inline;font-style:italic;font-weight:normal;padding-right:1em}#sbo-rt-content .FormalParaRenderingStyle3>.Heading{padding-right:1em}#sbo-rt-content .FormalParaRenderingStyle1>p:first-of-type,#sbo-rt-content .FormalParaRenderingStyle2>p:first-of-type{display:inline}#sbo-rt-content .Heading+.FormalPara{margin-top:0}#sbo-rt-content .FormalPara .AuthorNames{font-style:italic;font-weight:normal !important}#sbo-rt-content .HeadingNumber{padding-right:.3em}#sbo-rt-content .RenderAsSection1>.Heading{font-size:1.44rem;margin-top:.5em;margin-bottom:.1em}#sbo-rt-content .RenderAsSection2>.Heading{font-size:1.2rem;margin-top:.8em;margin-bottom:.1em}#sbo-rt-content .Heading+.Section2>.Heading:first-child{margin-top:0}#sbo-rt-content .RenderAsSection3>.Heading{font-size:1.2rem;font-style:italic;margin-top:.8em;margin-bottom:.1em}#sbo-rt-content .Heading+.Section3>.Heading:first-child{margin-top:0}#sbo-rt-content .RenderAsSection4>.Heading{font-size:100%;font-style:italic;margin-top:.8em;margin-bottom:.1em}#sbo-rt-content .Heading+.Section4>.Heading:first-child{margin-top:0}#sbo-rt-content .RenderAsSection5>.Heading{font-size:100%;margin-top:.8em;margin-bottom:.1em}#sbo-rt-content .Heading+.Section5>.Heading:first-child{margin-top:0}#sbo-rt-content .RenderAsSection6>.Heading{font-size:100%;margin-top:.8em;margin-bottom:.1em}#sbo-rt-content .Heading+.Section6>.Heading:first-child{margin-top:0}#sbo-rt-content .RenderAsSection7>.Heading{font-size:100%;margin-top:.8em;margin-bottom:.1em}#sbo-rt-content .Heading+.Section7>.Heading:first-child{margin-top:0}#sbo-rt-content .Literal{font-family:"Courier New",Courier,monospace}#sbo-rt-content .OrderedList{margin-top:.5em;margin-bottom:.5em;text-indent:0;display:table}#sbo-rt-content .OrderedList>ol{margin:0;padding:0}#sbo-rt-content .OrderedList .Heading{font-size:1em;font-style:italic;font-weight:normal;margin-top:0;margin-bottom:0;display:table-caption}#sbo-rt-content .OrderedList .Heading+.ListItem{margin-top:0}#sbo-rt-content .Heading+.Para>div.OrderedList:first-child,#sbo-rt-content .Heading+.Para>div.OrderedList:first-child>.Heading{margin-top:0}#sbo-rt-content .ListItem{margin-top:.5em;display:table-row}#sbo-rt-content .ItemNumber{padding-right:.5em;display:table-cell;vertical-align:top}#sbo-rt-content .ItemContent{display:table-cell}#sbo-rt-content .Fulltext>.Para:first-of-type{border-top:1px solid #bbb;margin-top:1em;padding-top:1em}#sbo-rt-content .Fulltext>.Para~.Para:first-of-type{border-top:none;margin-top:0;padding-top:0}#sbo-rt-content .Para+.Para{margin-top:0;text-indent:1.5em}#sbo-rt-content .ParaTextBreak{margin-top:1em !important;text-indent:0 !important}#sbo-rt-content .ParaTypeExample{border-left:4px solid;padding-left:.5em;margin-top:1em !important;margin-bottom:1em}#sbo-rt-content .ParaTypeEyeCatcher,#sbo-rt-content .ParaTypeTip{border-left:4px solid;padding-left:.5em;margin-top:1em !important;margin-bottom:.5em}#sbo-rt-content .ParaTypeImportant{background:#bbb;border:2px solid;padding:.5em;margin-top:.8em !important;margin-bottom:.8em}#sbo-rt-content .ParaTypeImportant img{background-color:transparent}#sbo-rt-content .ParaTypeGeneticSequence,#sbo-rt-content .ParaTypeLiteral,#sbo-rt-content .ParaTypeProgramcode{font-family:"Courier New",Courier,monospace;font-size:95%}#sbo-rt-content .ParaTypeProgramcode{text-indent:0 !important;word-wrap:break-word}#sbo-rt-content .Para:not(.ParaTypeProgramcode)+.ParaTypeProgramcode{margin-top:.5em}#sbo-rt-content .ParaTypeProgramcode+.Para:not(.ParaTypeProgramcode){margin-top:.5em}#sbo-rt-content .ParaTypeLegalText{font-weight:bold;margin-left:1em;text-align:left}#sbo-rt-content .ParaTypeOverview,#sbo-rt-content .ParaTypeAnswers,#sbo-rt-content .ParaTypeQuestions,#sbo-rt-content .ParaTypeDefinition,#sbo-rt-content .ParaTypeProcedure,#sbo-rt-content .ParaTypeRecipe{border:2px solid;margin-top:.8em !important;margin-bottom:.8em;padding:.5em}#sbo-rt-content .ParaTypeSource{font-style:italic}#sbo-rt-content .ParaTypeTrailer,#sbo-rt-content .ParaTypeLearningGoals{font-weight:bold;padding-left:.5em;padding-right:.5em}#sbo-rt-content .ParaTypeWarning{font-weight:bold}#sbo-rt-content .ParaTypeExample,#sbo-rt-content .ParaTypeEyeCatcher,#sbo-rt-content .ParaTypeImportant,#sbo-rt-content .ParaTypeLegalText,#sbo-rt-content .ParaTypeOverview,#sbo-rt-content .ParaTypeTip,#sbo-rt-content .ParaTypeAnswers,#sbo-rt-content .ParaTypeQuestions,#sbo-rt-content .ParaTypeDefinition,#sbo-rt-content .ParaTypeProcedure,#sbo-rt-content .ParaTypeRecipe{text-indent:0 !important}#sbo-rt-content .Para+.ParaOneEmphasisChild{margin-top:1em;text-indent:0 !important}#sbo-rt-content .ParaOneEmphasisChild+.Para{text-indent:0 !important}#sbo-rt-content .PartNumber{display:block;font-size:1.73rem}#sbo-rt-content .PartTitle{display:block;font-size:1.73rem}#sbo-rt-content .SubPartTitle{display:block;font-size:1.44rem}#sbo-rt-content .ProgramCode{margin-top:1em;margin-bottom:1em}#sbo-rt-content .ProgramCode .FixedLine{font-family:"Courier New",Courier,monospace;font-size:95%;word-wrap:break-word}#sbo-rt-content .LineGroup+.LineGroup{margin-top:1em}#sbo-rt-content .Heading+.Para>.Quiz>.Heading{margin-top:0;}#sbo-rt-content .Quiz .Heading{font-size:1rem;margin-top:1em;margin-bottom:0;text-indent:0}#sbo-rt-content .QuizTask{display:table;margin-top:.5em;margin-bottom:.5em;width:100%;text-indent:0}#sbo-rt-content .QuizTask+.QuizTask{margin-top:1.5em}#sbo-rt-content .QuizItem{padding:.1em}#sbo-rt-content .QuizItemTypeSolution{border:2px solid #aaa;margin-top:.5em;padding:10px}#sbo-rt-content .QuizTask>input{display:none}#sbo-rt-content .QuizItem>label{color:#0176C3}#sbo-rt-content .QuizTask>input~.QuizItem>label+div{display:none}#sbo-rt-content .QuizTask>input:checked~.QuizItem>label+div{display:table-cell}#sbo-rt-content .QuizTask>input~.QuizItem>label:after{content:"  »"}#sbo-rt-content .QuizTask>input:checked~.QuizItem>label:after{content:"  «"}#sbo-rt-content .QuizTask>input~.QuizItemTypeCorrectAnswer{background-color:transparent;transition:background .4s}#sbo-rt-content .QuizTask>input:checked~.QuizItemTypeCorrectAnswer{background-color:#EAF2DB;transition:background .4s}#sbo-rt-content .ReviewTitle{font-weight:bold;margin-top:1em;text-indent:0}#sbo-rt-content .Review .AuthorName+.AuthorName:before{content:", "}#sbo-rt-content .Review .ISBN,#sbo-rt-content .ReviewDataUnstructured{text-indent:0}#sbo-rt-content .Review .Para:first-of-type{margin-top:1em;text-indent:0}#sbo-rt-content .BookBackmatter>.Appendix:first-child>div:first-child{border-top:none !important;margin-top:0 !important;padding-top:0 !important}#sbo-rt-content .BookAcknowledgmentsBody>.RenderAsSection1:first-child,#sbo-rt-content .BookNotesBody>.RenderAsSection1:first-child,#sbo-rt-content .ForewordBody>.RenderAsSection1:first-child,#sbo-rt-content .PrefaceBody>.RenderAsSection1:first-child,#sbo-rt-content .BookBackmatter>.Appendix:first-child>.RenderAsSection1:first-child{border-top:none;margin-top:0}#sbo-rt-content .BookAcknowledgmentsBody>.RenderAsSection1:first-child>.Heading,#sbo-rt-content .ForewordBody>.RenderAsSection1:first-child>.Heading,#sbo-rt-content .PrefaceBody>.RenderAsSection1:first-child>.Heading{margin-top:0}#sbo-rt-content .Section1 .AuthorNames,#sbo-rt-content .Section2 .AuthorNames,#sbo-rt-content .Section3 .AuthorNames{font-weight:bold;margin-top:.3em;margin-bottom:.5em}#sbo-rt-content .Section1 .AuthorNames sup,#sbo-rt-content .Section2 .AuthorNames sup,#sbo-rt-content .Section3 .AuthorNames sup{font-size:70%}#sbo-rt-content .Section1 .Affiliations,#sbo-rt-content .Section2 .Affiliations,#sbo-rt-content .Section3 .Affiliations{margin-bottom:.5em}#sbo-rt-content .SectionTypeBackgroundInformation,#sbo-rt-content .SectionTypeExcurse{font-size:90%}#sbo-rt-content .SectionTypeBox,#sbo-rt-content .SectionTypeOverview,#sbo-rt-content .SectionTypeQuestionnaire{background-color:#BBB;margin-top:1em !important;padding:.5em}#sbo-rt-content .SectionTypeCaseStudy,#sbo-rt-content .SectionTypeExample,#sbo-rt-content .SectionTypeTip{border-left:4px solid;margin-top:1em !important;padding-top:0;padding-left:.5em;padding-right:.5em;padding-bottom:.5em}#sbo-rt-content .SectionTypeTrailer,#sbo-rt-content .SectionTypeLearningGoals{font-weight:bold;text-align:left}#sbo-rt-content .SectionTypeLegalText{font-weight:bold;margin-left:1em;text-align:left;text-indent:0 !important}#sbo-rt-content .SectionTypeProcedure,#sbo-rt-content .SectionTypeRecipe{border:2px solid;margin-top:.8em !important;margin-bottom:.8em;padding:.5em}#sbo-rt-content .SectionTypeWarning{font-weight:bold}#sbo-rt-content .RenderAsSection1{border-top:1px solid #bbb;margin-top:1em}#sbo-rt-content .SectionTypeBox+.RenderAsSection1,#sbo-rt-content .SectionTypeOverview+.RenderAsSection1,#sbo-rt-content .SectionTypeQuestionnaire+.RenderAsSection1{border-top:0;}#sbo-rt-content .SectionTypeBox>.Heading,#sbo-rt-content .SectionTypeOverview>.Heading,#sbo-rt-content .SectionTypeQuestionnaire>.Heading,#sbo-rt-content .SectionTypeProcedure>.Heading,#sbo-rt-content .SectionTypeRecipe>.Heading{margin-top:0}#sbo-rt-content .InternalRefSidebarLexicon{background-image:url(sidebar.gif);background-repeat:no-repeat;font-weight:bold;padding-left:20px}#sbo-rt-content .SidebarDialog{border:1px solid;margin-left:1.5em;margin-top:.4em;margin-bottom:.2em;padding:.2em;text-indent:0}#sbo-rt-content .SidebarNumber{font-weight:bold;padding-right:.5em}#sbo-rt-content .SimplePara+.SimplePara{margin-top:0;text-indent:1.5em}#sbo-rt-content .Stack{display:inline-table;vertical-align:top}#sbo-rt-content .Stack sub{display:table-row}#sbo-rt-content .Stack sup{display:table-header-group}#sbo-rt-content table{border-collapse:collapse;font-size:80%;max-width:100%;text-indent:0}#sbo-rt-content table .SimplePara+.SimplePara{text-indent:0}#sbo-rt-content table,#sbo-rt-content tr,#sbo-rt-content td{border-color:#bbb !important}#sbo-rt-content th{border-color:#999 !important}#sbo-rt-content thead{background:#bbb;color:#000 !important}#sbo-rt-content .Table{margin-bottom:1em;text-indent:0}#sbo-rt-content .Caption .Table{margin-bottom:0}#sbo-rt-content .Table img{height:auto;margin:0;max-width:100%}#sbo-rt-content th div{text-align:left}#sbo-rt-content td div,#sbo-rt-content td p,#sbo-rt-content th div,#sbo-rt-content th p{padding:.2em}#sbo-rt-content .Para+.Table,#sbo-rt-content .Para>.Table{margin-top:1em}#sbo-rt-content .SimplePara>.Table{margin-top:.5em}#sbo-rt-content thead,#sbo-rt-content tdiv{vertical-align:top}#sbo-rt-content tbody+tbody tr:first-child td{padding-top:1em}#sbo-rt-content .ExternalTable{background-color:#F8F8F8;border-top:1px solid;border-bottom:1px solid;margin-top:1em;margin-bottom:1em;padding-top:0;padding-bottom:0}#sbo-rt-content .ExternalTable .Table{padding-bottom:.3em}#sbo-rt-content .UnorderedList>.Heading{font-size:1em;font-style:italic;font-weight:normal;margin-top:0;margin-bottom:0}#sbo-rt-content .Heading+.Para>div.UnorderedList:first-child>.Heading{margin-top:0}#sbo-rt-content .UnorderedList li .Para:first-child{text-indent:0}#sbo-rt-content .Heading+ul{margin-top:0}#sbo-rt-content ul{margin-top:.5em;margin-bottom:.5em}#sbo-rt-content ul.UnorderedListMarkBullet{list-style-type:disc;padding-left:1em}#sbo-rt-content ul.UnorderedListMarkBullet div{margin-bottom:.3em}#sbo-rt-content ul.UnorderedListMarkBullet .Equation div{margin-bottom:0}#sbo-rt-content ul.UnorderedListMarkNone{list-style-type:none;padding-left:1em}#sbo-rt-content ul.UnorderedListMarkNone div{margin-bottom:.3em}#sbo-rt-content ul.UnorderedListMarkNone .Equation div{margin-bottom:0}#sbo-rt-content ul.UnorderedListMarkDash{list-style:none;padding-left:1.1em;text-indent:-.8em}#sbo-rt-content ul.UnorderedListMarkDash>li>*:first-child{display:inline}#sbo-rt-content ul.UnorderedListMarkDash div{text-indent:0;margin-top:.3em;margin-bottom:.3em}#sbo-rt-content ul.UnorderedListMarkDash>li:before{content:"– "}#sbo-rt-content .Verse{margin-top:1em;margin-bottom:1em}#sbo-rt-content .Verse .Heading{font-size:1rem;margin-top:1em;margin-bottom:1em;text-indent:0}#sbo-rt-content .Acknowledgments,#sbo-rt-content .AuthorContribution,#sbo-rt-content .Ethics{margin-top:1em}#sbo-rt-content .Acknowledgments>.Heading,#sbo-rt-content .AuthorContribution>.Heading,#sbo-rt-content .FundingInformation>.Heading,#sbo-rt-content .DataAvailability>.Heading,#sbo-rt-content .Ethics>.Heading{font-size:1.2rem;margin-bottom:0}#sbo-rt-content .License{font-size:.9rem !important;margin-top:1em;margin-bottom:1em}#sbo-rt-content .License>a:first-child img{float:left;height:1.9rem;padding-right:.5em;padding-bottom:0;padding-top:.2em}#sbo-rt-content .Glossary{border-top:1px solid #bbb;margin-top:1em;margin-bottom:1em;padding-top:.3em}#sbo-rt-content .Glossary .Headings{margin-top:.8em;margin-bottom:.8em}#sbo-rt-content .Glossary>.Headings>.Heading{font-size:1.44rem;margin:0}#sbo-rt-content .Glossary>.Headings>.SubHeading{font-size:1.2rem}#sbo-rt-content .GlossarySection .Headings{margin-top:.8em;margin-bottom:.4em}#sbo-rt-content .GlossarySection>.Headings>.Heading{font-size:1.2rem;margin:0}#sbo-rt-content .GlossarySection>.Headings>.SubHeading{font-size:100%}#sbo-rt-content .GlossaryTerm{float:left;font-style:italic;padding-right:.5em}#sbo-rt-content .GlossarySeeLabel,#sbo-rt-content .GlossarySeeAlsoLabel{font-style:italic;padding-right:.3em}#sbo-rt-content .GlossaryDef{display:inline;margin-top:.3em}#sbo-rt-content .GlossaryDef>.SimplePara,#sbo-rt-content .GlossaryDef>.GlossarySee,#sbo-rt-content .GlossaryDef>.GlossarySeeAlso{display:block}#sbo-rt-content .GlossaryDef>:first-child{display:inline;margin-top:0;margin-left:0}#sbo-rt-content .GlossaryDef .SimplePara+.GlossarySee,#sbo-rt-content .GlossaryDef .SimplePara+.GlossarySeeAlso{text-indent:0}#sbo-rt-content .GlossaryTerm{display:inline}#sbo-rt-content .GlossaryTerm+.GlossarySee,#sbo-rt-content .GlossaryTerm+.GlossarySeeAlso{display:inline}#sbo-rt-content .InternalRefGlossaryEntry{border-bottom:thin dotted;cursor:help}#sbo-rt-content .InternalRefGlossaryEntry:hover{border-bottom:none}#sbo-rt-content .InternalRefGlossaryEntry a:link,#sbo-rt-content .InternalRefGlossaryEntry a:active,#sbo-rt-content .InternalRefGlossaryEntry a:visited{color:inherit}#sbo-rt-content .InternalRefGlossaryEntry .InlineGlossaryDefinition{background:#fff;display:none;margin:0 3em 0 2em;padding:3px 3px 3px 6px;border-style:solid;border-color:#49546F;border-width:2px;border-radius:5px;box-shadow:5px 5px 5px #888}#sbo-rt-content .InternalRefGlossaryEntry:hover .InlineGlossaryDefinition{display:block;z-index:6}#sbo-rt-content .TocAppendix{border-top:1px solid #bbb;margin-top:1em;padding-top:1em}#sbo-rt-content .BookContextInformation+.Appendix>.TocAppendix:first-child{border-top:none;padding-top:0}#sbo-rt-content .TocAppendix .Headings{margin-bottom:.5em}#sbo-rt-content .TocAppendix>.Headings>.Heading{font-size:1.44rem;margin:0}#sbo-rt-content .TocAppendix>.Headings>.SubHeading{font-size:1.2rem}#sbo-rt-content .TocEntry,#sbo-rt-content .TocPart,#sbo-rt-content .TocBack{margin-top:.5em;text-align:left !important}#sbo-rt-content .TocItem{font-weight:bold}#sbo-rt-content .TocPageNumber{display:none}#sbo-rt-content .TocAuthors{padding-left:1.5em}#sbo-rt-content .TocSection1,#sbo-rt-content .TocSection2,#sbo-rt-content .TocSection3,#sbo-rt-content .TocSection4,#sbo-rt-content .TocSection5,#sbo-rt-content .TocSection6,#sbo-rt-content .TocSection7{padding-left:1.5em}#sbo-rt-content .Index{border-top:1px solid #bbb;margin-top:1em;padding-top:.3em;margin-bottom:.8em}#sbo-rt-content .BookBackmatter>.Index:first-child{border-top:none;margin-top:0}#sbo-rt-content .Index .Headings{margin-top:.8em;margin-bottom:.1em}#sbo-rt-content .BookBackmatter>.Index:first-child>.Headings{margin-top:0}#sbo-rt-content .Index>.Headings>.Heading{font-size:1.44rem;margin:0}#sbo-rt-content .Index>.Headings>.SubHeading{font-size:1.2rem}#sbo-rt-content .IndexDiv .Headings{margin-top:.5em;margin-bottom:.1em}#sbo-rt-content .IndexDiv>.Headings>.Heading{font-size:1.2rem;margin:0}#sbo-rt-content .IndexDiv>.Headings>.SubHeading{font-size:100%;font-style:italic}#sbo-rt-content .IndexEntrySeeLabel{font-style:italic;margin-left:1em;padding-right:.3em}#sbo-rt-content .SecondaryIE{margin-left:1em}#sbo-rt-content .TertiaryIE{margin-left:2em}#sbo-rt-content .ChangeHistory{border-top:1px solid #bbb;margin-top:1em}#sbo-rt-content .ChangeHistory>.Heading{font-size:1.44rem;margin-top:.8em;margin-bottom:.3em}#sbo-rt-content .ChangeDate{font-weight:bold;padding-right:1em}#sbo-rt-content .ChangeDetails{display:inline}#sbo-rt-content .ChangeDetails>p:first-of-type{display:inline}#sbo-rt-content .Bibliography{border-top:1px solid #bbb;margin-top:1em}#sbo-rt-content .BookBackmatter>.Bibliography:first-child{border-top:none}#sbo-rt-content .Bibliography>.Heading{font-size:1.44rem;margin-top:.8em;margin-bottom:.1em}#sbo-rt-content .BibliographyWrapper{display:table;margin:0;padding:0}#sbo-rt-content .Bibliography>.BibliographyWrapper{padding-top:1em}#sbo-rt-content .Bibliography>.Heading+.BibliographyWrapper{padding-top:0}#sbo-rt-content .BibSection>.Heading{font-size:1.2rem;margin-top:.8em;margin-bottom:.2em}#sbo-rt-content .BibliographyWrapper>.BibSection:first-child>.Heading:first-child{margin-top:.3em}#sbo-rt-content .Citation{display:table-row;font-size:90%}#sbo-rt-content .CitationNumber{display:table-cell}#sbo-rt-content .CitationNumber+.CitationContent{padding-left:.5em;text-align:left}#sbo-rt-content .CitationContent{padding-top:1em;display:table-cell}#sbo-rt-content .BibliographyWrapper>.Citation:first-child>.CitationContent{padding-top:0}#sbo-rt-content .Occurrences{display:block}#sbo-rt-content .Occurrence{margin-right:0}#sbo-rt-content .Occurrence:before{content:"["}#sbo-rt-content .Occurrence:after{content:"]"}#sbo-rt-content .Citation .ArticleTitle:before,#sbo-rt-content .Citation .ChapterTitle:before{content:" “";}#sbo-rt-content .Citation .ArticleTitle,#sbo-rt-content .Citation .ChapterTitle{display:inline}#sbo-rt-content .Citation .ArticleTitle:after{content:"”\ ";}#sbo-rt-content .Citation .ChapterTitle:after{content:"”\ In: ";}#sbo-rt-content .Citation .Year:before{content:" ("}#sbo-rt-content .Citation .Year:after{content:") "}#sbo-rt-content .Citation .JournalTitle:after{content:" "}#sbo-rt-content .Citation .VolumeID:after{content:":"}#sbo-rt-content .BibChapter .FirstPage:before,#sbo-rt-content .BibBook .FirstPage:before{content:", pp "}#sbo-rt-content .Citation .FirstPage+.LastPage:before{content:"–";}#sbo-rt-content .Citation .BookTitle:after,#sbo-rt-content .Citation .BibEditorName:after,#sbo-rt-content .Citation .EditionNumber:after,#sbo-rt-content .Citation .PublisherName:after{content:", "}#sbo-rt-content .BibComments{display:block}#sbo-rt-content .CoverFigure img{margin:0 auto 6px;width:100%;max-width:480px;height:auto}#sbo-rt-content .SeriesTitlePage{padding-bottom:1.5em;padding-top:1em}#sbo-rt-content .SeriesTitlePage .VolumeNumber{font-size:1.44rem}#sbo-rt-content .SeriesTitlePage span.SeriesTitle{display:block;font-size:1.73rem;font-weight:bold;margin-top:.5em}#sbo-rt-content .SeriesTitlePage .SeriesSubTitle{display:block;font-size:1.44rem;font-weight:bold}#sbo-rt-content .SeriesTitlePage .SubSeriesTitle{display:block;font-size:1.44rem;font-weight:bold;margin-top:.5em}#sbo-rt-content .SeriesTitlePage .SubSeriesSubTitle{display:block;font-size:1.2rem;font-weight:bold}#sbo-rt-content .SeriesTitlePage .CollaboratorDesignation{display:block;font-weight:bold;padding-top:3em}#sbo-rt-content .SeriesTitlePage .Collaborators{display:block}#sbo-rt-content .SeriesTitlePage .AffiliationText{font-style:italic;margin-left:0}#sbo-rt-content .SeriesTitlePage .Affiliation+.CollaboratorName{display:inline-block;margin-top:1em}#sbo-rt-content .SeriesInformationText{padding-top:3em}#sbo-rt-content .BookTitlePage{padding-top:1em}#sbo-rt-content .BookTitlePageAfterSeriesTitlePage{border-top:1px solid #bbb;page-break-before:always}#sbo-rt-content .BookContextInformation+.BookTitlePage{border-top:none;padding-top:0}#sbo-rt-content .BookTitlePage .BookEditors,#sbo-rt-content .BookTitlePage .BookAuthors,#sbo-rt-content .BookTitlePage .BookEditorInChiefGroup,#sbo-rt-content .BookTitlePage .BookSectionEditorGroup{text-align:left !important}#sbo-rt-content .BookTitlePage .BookEditorInChiefGroup,#sbo-rt-content .BookTitlePage .BookSectionEditorGroup{margin-top:1em}#sbo-rt-content .BookTitlePage .BookEditorGroup .CollaboratorDesignation,#sbo-rt-content .BookTitlePage .BookEditorInChiefGroup .CollaboratorDesignation,#sbo-rt-content .BookTitlePage .BookSectionEditorGroup .CollaboratorDesignation{font-style:italic}#sbo-rt-content .BookTitlePage .BookTitle{display:block;font-size:1.73rem;font-weight:bold;margin-top:1em}#sbo-rt-content .BookTitlePage .BookSubTitle{display:block;font-size:1.44rem;font-weight:bold;margin-bottom:.5em}#sbo-rt-content .BookTitlePage .BookEdition{display:block;font-size:1rem;font-weight:normal;margin-top:.5em}#sbo-rt-content .BookTitlePage .CollaboratorLine{padding-top:.5em}#sbo-rt-content .BookFeatureText{margin-top:.5em}#sbo-rt-content .BookTitlePage .PublisherLogo .Figure,#sbo-rt-content .BookTitlePage .PublisherImprintName{font-size:1.2rem;margin-top:4em;margin-bottom:1.5em;text-align:left}#sbo-rt-content .CopyrightPage{border-top:1px solid #bbb;padding-top:1em;padding-bottom:1em;page-break-before:always}#sbo-rt-content .CopyrightPage .CollaboratorDesignation{display:block;font-style:italic;padding-bottom:.5em}#sbo-rt-content .CopyrightPageOriginators{padding-bottom:4em}#sbo-rt-content .CopyrightPage div+.CollaboratorDesignation{padding-top:2em}#sbo-rt-content .CopyrightPage .EditorGroup+.AuthorGroup{padding-top:2em}#sbo-rt-content .CopyrightPage .Author+.Author,#sbo-rt-content .CopyrightPage .Author+.InstitutionalAuthor,#sbo-rt-content .CopyrightPage .InstitutionalAuthor+.Author,#sbo-rt-content .CopyrightPage .InstitutionalAuthor+.InstitutionalAuthor,#sbo-rt-content .CopyrightPage .Editor+.Editor,#sbo-rt-content .CopyrightPage .Editor+.InstitutionalEditor,#sbo-rt-content .CopyrightPage .InstitutionalEditor+.Editor,#sbo-rt-content .CopyrightPage .InstitutionalEditor+.InstitutionalEditor,#sbo-rt-content .CopyrightPage .Collaborator+.Collaborator{padding-top:1em}#sbo-rt-content .CopyrightPage .Affiliation{margin-top:0}#sbo-rt-content .CopyrightPage .AffiliationText{margin-left:0}#sbo-rt-content .CopyrightPage .CollaboratorLine{padding-top:1em}#sbo-rt-content .CopyrightPage .CollaboratorLineTranslatedBy{padding-top:2em}#sbo-rt-content .CopyrightPage .CollaboratorLine .CollaboratorDesignation{display:inline;font-style:normal}#sbo-rt-content .BookFrontmatter .CopyrightPage .ArticleNoteESMHint,#sbo-rt-content .BookFrontmatter .CopyrightPage .ArticleNoteMoreMedia{border:none;padding-bottom:0;page-break-before:auto}#sbo-rt-content .CopyrightPageISBNs,#sbo-rt-content .CopyrightPageISSNs,#sbo-rt-content .SpringerLocationsLine,#sbo-rt-content .CatalogingInformation,#sbo-rt-content .MathematicsSubjectClassification,#sbo-rt-content .CopyrightLine,#sbo-rt-content .CopyrightPage .CopyrightComment,#sbo-rt-content .BookCopublishingInformation .SimplePara,#sbo-rt-content .CopyrightStandardText,#sbo-rt-content .TrademarkQualifierText,#sbo-rt-content .ProductLiability,#sbo-rt-content .LegalNotice,#sbo-rt-content .CoverDesigner,#sbo-rt-content .BookCoverFigureText,#sbo-rt-content .PaperInfo,#sbo-rt-content .SpringerReferenceLine{margin-top:1em}#sbo-rt-content .CopyrightComment+.CopyrightLine{margin-top:.5em}#sbo-rt-content .SeriesTitle+.CopyrightPageISBNs,#sbo-rt-content .SubSeriesTitle+.CopyrightPageISBNs{margin-top:0}#sbo-rt-content .CopyrightPage .SeriesTitle{display:block;margin-top:1em}#sbo-rt-content .SeriesTitle+.CopyrightPageISSNs,#sbo-rt-content .CopyrightPageISSNs+.SeriesTitle,#sbo-rt-content .CopyrightPageISSNs+.SubSeriesTitle{margin-top:0}#sbo-rt-content .CopyrightPagePrintISSN,#sbo-rt-content .CopyrightPagePrintISBN{display:inline-block;min-width:12em}#sbo-rt-content .SpringerReferenceLine .SimplePara+.SimplePara,#sbo-rt-content .BookCoverFigureText .SimplePara+.SimplePara,#sbo-rt-content .BookCopublishingInformation .SimplePara+.SimplePara{text-indent:0}#sbo-rt-content .CopyrightPagePrintISSN+.CopyrightPageElectronicISSN{padding-left:1.5em}#sbo-rt-content .CopyrightPagePrintISBN+.CopyrightPageElectronicISBN{padding-left:1.5em}#sbo-rt-content .CopyrightComment .SimplePara+.SimplePara{padding-top:.5em;text-indent:0}#sbo-rt-content .BookCorrectionYear:before{content:", "}#sbo-rt-content .BookCorrectionYear .Year:first-of-type:before{content:" "}#sbo-rt-content .BookCorrectionYear .Year+.Year:before{content:", "}#sbo-rt-content .MathematicsSubjectClassificationCode+.MathematicsSubjectClassificationCode:before{content:", "}#sbo-rt-content .Endorsement{border-top:1px solid #bbb;padding-top:1em;padding-bottom:1em;page-break-before:always}#sbo-rt-content .Frontispiece{border-top:1px solid #bbb;padding-top:1em;padding-bottom:1em;page-break-before:always}#sbo-rt-content .Dedication{border-top:1px solid #bbb;padding-top:1em;padding-bottom:1em;page-break-before:always}#sbo-rt-content .Foreword{border-top:1px solid #bbb;padding-top:1em;padding-bottom:1em;page-break-before:always}#sbo-rt-content .PartFrontmatter h1:first-child+.Foreword{border-top:none;padding-top:0;page-break-before:auto}#sbo-rt-content .ForewordTitle{font-size:1.44rem;font-weight:bold;padding-bottom:.1em;page-break-after:avoid}#sbo-rt-content .Foreword .AuthorName{margin-top:.2em}#sbo-rt-content .Foreword .AuthorName,#sbo-rt-content .ForewordLocations,#sbo-rt-content .ForewordDate{font-weight:bold;text-align:right}#sbo-rt-content .ForewordLocation+.ForewordLocation:before{content:", "}#sbo-rt-content .Foreword .RenderAsSection1>.Heading{font-size:1.2rem}#sbo-rt-content .Foreword .RenderAsSection2>.Heading,#sbo-rt-content .Foreword .RenderAsSection3>.Heading{font-size:100%}#sbo-rt-content .Preface{border-top:1px solid #bbb;padding-top:1em;padding-bottom:1em;page-break-before:always}#sbo-rt-content .PrefaceTitle{font-size:1.44rem;font-weight:bold;padding-bottom:.1em;page-break-after:avoid}#sbo-rt-content .Preface .AuthorName{margin-top:.2em}#sbo-rt-content .Preface .AuthorName,#sbo-rt-content .PrefaceLocations,#sbo-rt-content .PrefaceDate{font-weight:bold;text-align:right}#sbo-rt-content .PrefaceLocation+.PrefaceLocation:before{content:", "}#sbo-rt-content .Preface .RenderAsSection1>.Heading{font-size:1.2rem}#sbo-rt-content .Preface .RenderAsSection2>.Heading,#sbo-rt-content .Preface .RenderAsSection3>.Heading{font-size:100%}#sbo-rt-content .BookFrontmatterArticleNote{border-top:1px solid #bbb;margin-top:0;padding-top:1em;padding-bottom:1em;page-break-before:always}#sbo-rt-content .PartFrontmatter .ArticleNote{padding-bottom:1em}#sbo-rt-content .PartFrontmatter h1:first-child+.ArticleNote{border-top:none;page-break-before:auto}#sbo-rt-content .BookFrontmatter .ArticleNote .Heading,#sbo-rt-content .PartFrontmatter .ArticleNote .Heading{font-size:1.44rem;font-style:normal;padding-bottom:.1em;page-break-after:avoid}#sbo-rt-content .BookAcknowledgments{border-top:1px solid #bbb;padding-top:1em;padding-bottom:1em;page-break-before:always}#sbo-rt-content .BookAcknowledgmentsTitle{font-size:1.44rem;font-weight:bold;padding-bottom:.1em;page-break-after:avoid}#sbo-rt-content .BookAcknowledgments .AuthorName{font-weight:bold;margin-top:1em}#sbo-rt-content .BookAcknowledgments .RenderAsSection1>.Heading{font-size:1.2rem}#sbo-rt-content .BookAcknowledgments .RenderAsSection2>.Heading,#sbo-rt-content .BookAcknowledgments .RenderAsSection3>.Heading{font-size:100%}#sbo-rt-content .BookNotes{border-top:1px solid #bbb;padding-top:1em;padding-bottom:1em;page-break-before:always}#sbo-rt-content .BookNotesTitle{font-size:1.44rem;font-weight:bold;margin-bottom:.1em;page-break-after:avoid}#sbo-rt-content .BookNotes .AuthorName{font-weight:bold}#sbo-rt-content .BookFrontmatterAbbreviationGroup{border-top:1px solid #bbb;margin-top:0;padding-bottom:1em;page-break-before:always}#sbo-rt-content .PartFrontmatter .AbbreviationGroup{padding-bottom:1em;margin-top:1em}#sbo-rt-content .BookFrontmatter .AbbreviationGroup .Heading,#sbo-rt-content .PartFrontmatter .AbbreviationGroup .Heading{font-size:1.44rem;font-weight:bold;padding-top:1em;padding-bottom:.1em;page-break-after:avoid}#sbo-rt-content .BookFrontmatter .AbbreviationGroupSection>.Heading,#sbo-rt-content .PartFrontmatter .AbbreviationGroupSection>.Heading{font-size:1.2rem;padding-top:1em;padding-bottom:0}#sbo-rt-content .BookFrontmatter .AbbreviationGroupSection+.AbbreviationGroupSection>.Heading,#sbo-rt-content .PartFrontmatter .AbbreviationGroupSection+.AbbreviationGroupSection>.Heading{padding-top:.5em}#sbo-rt-content .Toc{border-top:1px solid #bbb;margin-top:0;padding-bottom:1em;page-break-before:always}#sbo-rt-content .Toc .Headings{margin-bottom:.5em}#sbo-rt-content .Toc>.Headings>.Heading{font-size:1.44rem;margin:0}#sbo-rt-content .Toc>.Headings>.SubHeading{font-size:1.2rem}#sbo-rt-content .Loh{border-top:1px solid #bbb;padding-bottom:1em;padding-top:1em;page-break-before:always}#sbo-rt-content .Loh .Headings{margin-bottom:.1em}#sbo-rt-content .Loh>.Headings>.Heading{font-size:1.44rem;margin:0}#sbo-rt-content .Loh>.Headings>.SubHeading{font-size:1.2rem}#sbo-rt-content .LohPageNumber{display:none}#sbo-rt-content .LocWithHeading,#sbo-rt-content .LocWithoutHeading>.LocBody>.LocDiv{border-top:1px solid #bbb;padding-bottom:1em;padding-top:1em;page-break-before:always}#sbo-rt-content .Loc .Headings{margin-bottom:.1em}#sbo-rt-content .LocWithHeading>.Headings>.Heading,#sbo-rt-content .LocWithoutHeading>.LocBody>.LocDiv>.Headings>.Heading{font-size:1.44rem;margin:0}#sbo-rt-content .LocWithHeading>.Headings>.SubHeading,#sbo-rt-content .LocWithoutHeading>.LocBody>.LocDiv>.Headings>.SubHeading{font-size:1.2rem}#sbo-rt-content .LocWithHeading .LocDiv{margin-top:1em}#sbo-rt-content .LocWithHeading .LocDiv .Heading{font-size:1.2rem;margin-bottom:.1em}#sbo-rt-content .LocWithHeading .LocDiv .SubHeading{font-size:100%;font-style:italic;font-weight:normal}#sbo-rt-content .LocDiv .FormalPara .Heading{font-size:100%}#sbo-rt-content .Loc .AuthorGroup+.AuthorGroup,#sbo-rt-content .Loc .AuthorGroup+.EditorGroup,#sbo-rt-content .Loc .EditorGroup+.AuthorGroup,#sbo-rt-content .Loc .EditorGroup+.EditorGroup{margin-top:1em}#sbo-rt-content .Loc .Author,#sbo-rt-content .Loc .Editor,#sbo-rt-content .Loc .InstitutionalAuthor,#sbo-rt-content .Loc .InstitutionalEditor{font-weight:bold}#sbo-rt-content .Loc .AffiliationText{margin-left:0}#sbo-rt-content .Loc .Email+.Email:before{content:", "}#sbo-rt-content .Loc .Emails,#sbo-rt-content .Loc .URLs{display:inline}#sbo-rt-content .Loc .Emails+.URLs:before{content:", "}#sbo-rt-content .Loc .URL+.URL:before{content:", "}#sbo-rt-content .BookFrontmatterFootnoteSection{border-top:1px solid #bbb;margin-top:0;page-break-before:always}#sbo-rt-content .PartFrontmatter .FootnoteSection{border-top:none;margin-top:0}#sbo-rt-content .Colophon{border-top:1px solid #bbb;margin-top:1em;padding-top:.8em;font-style:italic}#sbo-rt-content .ConferenceInfo{border-top:1px solid #bbb;margin-top:1em;padding-top:.8em}#sbo-rt-content .ConfEventAbbreviation,#sbo-rt-content .ConfNumber+.ConfSeriesName,#sbo-rt-content .ConfEventAbbreviation+.Year,#sbo-rt-content .ConfEventDateStart,#sbo-rt-content .ConfEventDateEnd{display:inline}#sbo-rt-content .ConfEventAbbreviation:after{content:" "}#sbo-rt-content .ConfEventLocation .City:after{content:", "}#sbo-rt-content .ConfEventDateEnd:before{content:"–"}#sbo-rt-content .ConfEventDateStart .Year:after,#sbo-rt-content .ConfEventDateStart .Month:after,#sbo-rt-content .ConfEventDateEnd .Year:after,#sbo-rt-content .ConfEventDateEnd .Month:after{content:"/"}#sbo-rt-content .ConfEventDate .Month:after{content:"/"}
+    </style><script> // <![CDATA[
+    var g = {
+      position_cache: {
+        
+      },
+      title: "PHP 7 Solutions: Dynamic Web Design Made Easy",
+      author_list: "David Powers",
+      format: "book",
+      source: "application/epub+zip",
+      is_system_book: true,
+      is_public: false,
+      loaded_from_server: true,
+      allow_scripts: false,
+      has_mathml: false
+    };
+    // ]]></script><script src="/static/js/src/modernizr.8e35451ddb64.js"></script><script>
+    
+       window.PUBLIC_ANNOTATIONS = false;
+       window.MOBLIE_PUBLIC_ANNOTATIONS = false;
+    
+
+    
+      window.PRIVACY_CONTROL_OVERRIDE = false;
+    
+
+      window.PRIVACY_CONTROL_SWITCH = true;
+
+      window.PUBLISHER_PAGES = true;
+
+      window.SBO = {
+        "constants": {
+          "SITB_ENDPOINT": "/api/v2/sitb/",
+          "SEARCH_SELECT_ENDPOINT": "https://learning.oreilly.com/api/v2/search/select/",
+          "ENABLE_ONLINE_TRAINING": true
+        }
+      };
+  </script><link rel="canonical" href="https://learning.oreilly.com/library/view/php-7-solutions/9781484243381/html/332054_4_En_19_Chapter.xhtml"/><meta name="description" content="© David Powers 2019 David PowersPHP 7 Solutionshttps://doi.org/10.1007/978-1-4842-4338-1_19 19. Authenticating Users with a Database David Powers1  (1)London, UK   Chapter 11 showed you the principles of user authentication and sessions ... "><meta property="og:title" content="19. Authenticating Users with a Database" /><meta itemprop="isPartOf" content="/library/view/php-7-solutions/9781484243381/" /><meta itemprop="name" content="19. Authenticating Users with a Database" /><meta property="og:url" itemprop="url" content="https://learning.oreilly.com/library/view/php-7-solutions/9781484243381/html/332054_4_En_19_Chapter.xhtml" /><meta property="og:site_name" content="Safari" /><meta property="og:image" itemprop="thumbnailUrl" content="https://learning.oreilly.com/library/cover/9781484243381/" /><meta property="og:description" itemprop="description" content="© David Powers 2019 David PowersPHP 7 Solutionshttps://doi.org/10.1007/978-1-4842-4338-1_19 19. Authenticating Users with a Database David Powers1  (1)London, UK   Chapter 11 showed you the principles of user authentication and sessions ... "><meta itemprop="inLanguage" content="en" /><meta itemprop="publisher" content="Apress" /><meta property="og:type" content="book" /><meta property="og:book:isbn" itemprop="isbn" content="9781484243381" /><meta property="og:book:author" itemprop="author" content="David Powers" /><meta name="twitter:card" content="summary"><meta name="twitter:site" content="@safari"><style type="text/css" id="font-styles" data-template="#sbo-rt-content, #sbo-rt-content p, #sbo-rt-content div { font-size: <%= font_size %> !important; }"></style><style type="text/css" id="font-family" data-template="#sbo-rt-content, #sbo-rt-content p, #sbo-rt-content div { font-family: <%= font_family %> !important; }"></style><style type="text/css" id="column-width" data-template="#sbo-rt-content { max-width: <%= column_width %>% !important; margin: 0 auto !important; }"></style><script type="text/javascript">
+    (function(i,s,o,g,r,a,m) {
+      i['GoogleAnalyticsObject']=r;
+      i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();
+      a=s.createElement(o),m=s.getElementsByTagName(o)[0];
+      a.async=1;
+      a.src=g;
+      m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    var matches = document.cookie.match(/BrowserCookie\s*=\s*([a-f0-9\-]{36})/),
+      user_uuid = null;
+
+    if (matches && matches.length === 2) {
+      user_uuid = matches[1];
+    }
+
+  
+    ga('create', 'UA-39299553-7');
+  
+
+  
+    
+      ga('set', 'dimension1', 'Anonymous');
+    
+  
+
+  ga('set', 'dimension6', user_uuid);
+
+  
+
+  
+
+  
+
+  //enable enhanced link tracking
+  ga('require', 'linkid', 'linkid.js');
+
+  // reading interface will track pageviews itself
+  if (document.location.pathname.indexOf("/library/view") !== 0) {
+    ga('send', 'pageview');
+  }
+  </script><script>
+    var dataLayer = window.dataLayer || [];
+
+    
+
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5P4V6Z');
+    (function () {
+      var VERSION = 'V1.1';
+      var AUTHOR = 'Awwad';
+      if (!window.GtmHelper)
+        window.GtmHelper = function () {
+          var instance = this;
+          var loc = document.location;
+          this.version = VERSION;
+          this.author = AUTHOR;
+          this.readCookie = function (name) {
+            var nameEQ = name + "=";
+            var ca = document.cookie.split(';');
+            for (var i = 0; i < ca.length; i++) {
+              var c = ca[i];
+              while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+              if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+            }
+            return null;
+          };
+          this.createCookie = function (name, value, days, cookieDomain) {
+            var domain = "";
+            var expires = "";
+
+            if (days) {
+              var date = new Date();
+              date.setTime(date.getTime() + Math.ceil(days * 24 * 60 * 60 * 1000));
+              var expires = " expires=" + date.toGMTString() + ";";
+            }
+
+            if (typeof (cookieDomain) != 'undefined')
+              domain = " domain=" + cookieDomain + "; ";
+
+            document.cookie = name + "=" + value + ";" + expires + domain + "path=/";
+          };
+
+          this.isDuplicated = function (currentTransactionId) {
+            // the previous transaction id:
+            var previousTransIdValue = this.readCookie("previousTransId");
+
+            if (currentTransactionId === previousTransIdValue) {
+              return true; // Duplication
+            } else {
+              return false;
+            }
+          };
+        }
+    })()
+  </script><script defer src="/static/js/build/vendor.75d9ef59282e.js"></script><script defer src="/static/js/build/reader.acee09dc84ba.js"></script></head>
+
+
+<body class="reading sidenav nav-collapsed  js-preview-content  t-preview-content js-preview-content prodsample-book scalefonts">
+
+    
+  <noscript> 
+    <iframe src="//www.googletagmanager.com/ns.html?id=GTM-5P4V6Z"
+            height="0" width="0"
+            style="display:none;visibility:hidden">
+    </iframe>
+  </noscript>
+
+
+
+    
+      <div class="hide working" role="status">
+        <div class="working-image"></div>
+      </div>
+      <div class="sbo-site-nav">
+        
+
+
+
+
+
+<a href="#container" class="skip">Skip to content</a><header class="topbar t-topbar"><nav role="navigation" class="js-site-nav"><ul class="topnav"><li class="t-logo"><a href="/" class="l0 None safari-home nav-icn js-keyboard-nav-home"><svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M11.738 14H9.254v-3.676a.617.617 0 0 0-.621-.613H7.39a.617.617 0 0 0-.62.613V14H4.284a.617.617 0 0 1-.622-.613V10.22c0-.327.132-.64.367-.87l3.547-3.493a.627.627 0 0 1 .875 0l3.54 3.499c.234.229.366.54.367.864v3.167a.617.617 0 0 1-.62.613zM7.57 2.181a.625.625 0 0 1 .882 0l5.77 5.692-.93.92-5.28-5.209-5.28 5.208-.932-.919 5.77-5.692z" /></svg><span>Safari Home</span></a></li><li><a href="/resource-centers/" class="t-resource-centers-nav l0 nav-icn"><?xml version="1.0" encoding="UTF-8"?><svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="Topic-Page-Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="Heron-Button" transform="translate(-20.000000, -78.000000)" fill="#4A3A30"><g id="Group-9" transform="translate(20.000000, 78.000000)"><rect id="Rectangle" x="9.6" y="0" width="6.4" height="6.4" rx="0.503118"></rect><rect id="Rectangle" x="9.6" y="9.6" width="6.4" height="6.4" rx="0.503118"></rect><rect id="Rectangle" x="0" y="9.6" width="6.4" height="6.4" rx="0.503118"></rect></g></g></g></svg><span>Resource Centers</span></a></li><li class="search"><a href="#" class="trigger ss-search l0 t-search-box" data-dropdown-selector=".searchbox"><span>Search</span></a></li><li class="usermenu dropdown"><a href="#" class="trigger l0 nav-icn nav-dropdown"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20" version="1.1" fill="#4A3C31"><desc>navigation arrow</desc><g stroke="none" stroke-width="1" fill-rule="evenodd"><path d="M0.1 12.5L9.7 3.1C9.8 3 9.9 3 10 3 10.1 3 10.2 3 10.3 3.1L19.9 12.5C20 12.5 20 12.6 20 12.8 20 12.9 20 13 19.9 13L17 15.9C16.9 16 16.8 16 16.7 16 16.5 16 16.4 16 16.4 15.9L10 9.7 3.6 15.9C3.6 16 3.5 16 3.3 16 3.2 16 3.1 16 3 15.9L0.1 13C0 12.9 0 12.8 0 12.7 0 12.7 0 12.6 0.1 12.5Z"/></g></svg><span>Expand Nav</span></a><div class="drop-content"><ul><li id="nav-topics"><a href="/learn/" class="t-topics-link l1 nav-icn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 55" width="20" height="20" version="1.1" fill="#4A3C31"><desc>topics icon</desc><g stroke="none" stroke-width="1" fill-rule="evenodd"><path d="M25 55L50 41.262 50 13.762 25 0 0 13.762 0 41.262 25 55ZM8.333 37.032L8.333 17.968 25 8.462 41.667 17.968 41.667 37.032 25 46.538 8.333 37.032Z"/></g></svg><span>Topics</span></a></li></ul><ul class="profile"><li><a href="https://www.oreilly.com/online-learning/support/" class="l2">Support</a></li></ul></div></li></ul></nav></header>
+
+
+      </div>
+      <div id="container" class="application">
+        
+          <div class="nav-container clearfix">
+            
+
+
+            
+            
+          </div>
+
+          
+
+  <div class="js-toc">
+    
+      <div class="sbo-reading-menu sbo-menu-top"><section class="sbo-toc-container toc-menu"><a href="#" class="sbo-toc-thumb"><span class="sbo-title ss-list"><h1><div class="visuallyhidden">Table of Contents for </div>
+      
+      PHP 7 Solutions: Dynamic Web Design Made Easy
+      
+    </h1></span></a><div class="toc-contents"></div></section></div>
+
+    
+
+    <div class="interface-controls interface-controls-top">
+      <ul class="interface-control-btns js-bitlist js-reader">
+        <li class="js-search-in-archive search-in-archive t-search-in-archive"><a href="#" title="Search in archive" class="js-search-controls search-controls"><span class="icon">Search in book...</span></a><form class="search-archive-bar js-search-form"><input type="search" name="query" placeholder="Search inside this book..." autocomplete="off"></form><div class="search-archive-results"><div class="js-sitb-results-region"></div></div></li><li class="js-font-control-panel font-control-activator"><a href="#" data-push-state="false" id="font-controls" title="Change font size" aria-label="Change font size"><span class="icon">Toggle Font Controls</span></a></li><li class="dropdown sharing-controls"><a href="#" class="trigger" data-push-state="false" title="Share" aria-label="Share"><i class="fa fa-share"></i></a><ul class="social-sharing dropdown-menu"><li><a
+        class="twitter share-button t-twitter"
+        target="_blank"
+        aria-label="Share this section on Twitter"
+        title="Share this section on Twitter"
+      
+        href="https://twitter.com/share?url=https://learning.oreilly.com/library/view/php-7-solutions/9781484243381/html/332054_4_En_19_Chapter.xhtml&text=PHP%207%20Solutions%3A%20Dynamic%20Web%20Design%20Made%20Easy&via=safari"
+      ><span>Twitter</span></a></li><li><a
+        class="facebook share-button t-facebook"
+        target="_blank"
+        aria-label="Share this section on Facebook"
+        title="Share this section on Facebook"
+        href="https://www.facebook.com/sharer/sharer.php?u=https://learning.oreilly.com/library/view/php-7-solutions/9781484243381/html/332054_4_En_19_Chapter.xhtml"
+      ><span>Facebook</span></a></li><li><a
+        class="googleplus share-button t-googleplus"
+        target="_blank"
+        aria-label="Share this secton on Google Plus"
+        title="Share this secton on Google Plus"
+        href="https://plus.google.com/share?url=https://learning.oreilly.com/library/view/php-7-solutions/9781484243381/html/332054_4_En_19_Chapter.xhtml"
+      ><span>Google Plus</span></a></li><li><a
+        class="email share-button t-email"
+        aria-label="Share this section via email"
+        title="Share this section via email"
+      
+        href="mailto:?subject=Safari: 19.%C2%A0Authenticating%20Users%20with%20a%20Database&body=https://learning.oreilly.com/library/view/php-7-solutions/9781484243381/html/332054_4_En_19_Chapter.xhtml%0D%0Afrom PHP%207%20Solutions%3A%20Dynamic%20Web%20Design%20Made%20Easy%0D%0A"
+      ><span>Email</span></a></li></ul></li>
+      </ul>
+    </div>
+
+    
+    <section role="document">
+        
+        
+
+
+
+
+  <script defer src="/static/js/build/djangoMessagesPage.0361f09909c8.js"></script>
+
+
+        
+	  <div class="t-sbo-prev sbo-prev sbo-nav-top">
+  
+    
+      
+        <a href="/library/view/php-7-solutions/9781484243381/html/332054_4_En_18_Chapter.xhtml" class="prev nav-link">
+      
+          <span aria-hidden="true" class="pagination-label t-prev-label">Prev</span>
+          <span class="visuallyhidden">Previous Chapter</span>
+          <div class="pagination-title t-prev-title">18. Managing Multiple Database Tables</div>
+        </a>
+    
+  
+  </div>
+
+  <div class="t-sbo-next sbo-next sbo-nav-top">
+  
+    
+      
+        <a href="/library/view/php-7-solutions/9781484243381/html/332054_4_En_BookBackmatter_OnlinePDF.xhtml" class="next nav-link">
+      
+          <span aria-hidden="true" class="pagination-label t-next-label">Next</span>
+          <span class="visuallyhidden">Next Chapter</span>
+          <div class="pagination-title t-next-title">Back Matter</div>
+        </a>
+    
+  
+  </div>
+
+
+
+<div id="sbo-rt-content"><div class="ChapterContextInformation"><div class="ContextInformation" id="b978-1-4842-4338-1_19"><div class="ChapterCopyright">© David Powers 2019</div><span class="ContextInformationAuthorEditorNames"><span class="Author"><span class="AuthorName">David Powers</span></span></span><span class="ContextInformationBookTitles"><span class="BookTitle" epub:type="title" lang="en">PHP 7 Solutions</span></span><span class="ChapterDOI"><a href="https://doi.org/10.1007/978-1-4842-4338-1_19">https://doi.org/10.1007/978-1-4842-4338-1_19</a></span></div></div><div class="MainTitleSection"><h1 class="ChapterTitle" lang="en">19. Authenticating Users with a Database</h1></div><div class="AuthorGroup"><div class="AuthorNames"><span class="Author"><span class="AuthorName">David Powers</span><sup><a href="#Aff2">1</a> </sup></span></div><div class="Affiliations"><div class="Affiliation" id="Aff2"><span class="AffiliationNumber">(1)</span><div class="AffiliationText">London, UK</div></div><div class="ClearBoth"> </div></div></div><div class="Fulltext"><p class="Para" id="Par2">Chapter <span class="ExternalRef"><a href="332054_4_En_11_Chapter.xhtml"><span class="RefSource">11</span></a></span> showed you the principles of user authentication and sessions to password protect parts of your web site, but the login scripts all relied on usernames and passwords stored in a CSV file. Keeping user details in a database is both more secure and more efficient. Instead of just storing a list of usernames and passwords, a database can store other details, such as first name, family name, email address, and so on. Databases also give you the option of using either hashing (one-way and irreversible) or encryption (two-way). In the first section of this chapter, we’ll examine the ...</p></div></div>
+
+
+
+  <div class="t-sbo-prev sbo-prev sbo-nav-bottom">
+  
+    
+      
+        <a href="/library/view/php-7-solutions/9781484243381/html/332054_4_En_18_Chapter.xhtml" class="prev nav-link">
+      
+          <span aria-hidden="true" class="pagination-label t-prev-label">Prev</span>
+          <span class="visuallyhidden">Previous Chapter</span>
+          <div class="pagination-title t-prev-title">18. Managing Multiple Database Tables</div>
+        </a>
+    
+  
+  </div>
+
+  <div class="t-sbo-next sbo-next sbo-nav-bottom">
+  
+    
+      
+        <a href="/library/view/php-7-solutions/9781484243381/html/332054_4_En_BookBackmatter_OnlinePDF.xhtml" class="next nav-link">
+      
+          <span aria-hidden="true" class="pagination-label t-next-label">Next</span>
+          <span class="visuallyhidden">Next Chapter</span>
+          <div class="pagination-title t-next-title">Back Matter</div>
+        </a>
+    
+  
+  </div>
+
+
+        
+    </section>
+  </div>
+<section class="sbo-saved-archives"></section>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  context = {
+    product: {
+      title: 'PHP 7 Solutions: Dynamic Web Design Made Easy',
+      type: 'book',
+      identifier: '9781484243381',
+      topic: 'PHP'
+    },
+    content: {
+      title: 'PHP 7 Solutions: Dynamic Web Design Made Easy',
+      formatType: 'book',
+      identifier: '9781484243381',
+      author: 'David Powers',
+      publisher: 'Apress',
+      releaseDate: '2019-07-03',
+      parentTopic: 'none',
+      free: 'yes',
+      subdirectory: 'none'
+    }
+  }
+  dataLayer.push(context);
+</script>
+
+
+
+          
+          
+  
+
+
+
+
+
+  
+  
+
+
+
+
+        
+      </div>
+      
+
+
+
+  <footer class="pagefoot">
+    <a href="#" class="icon-up"><div class="visuallyhidden">Back to top</div></a>
+    <ul class="js-footer-nav">
+      <li class="full-support"><a href="https://www.oreilly.com/online-learning/support/">Support</a></li>
+      <li><a href="https://www.oreilly.com/online-learning/apps.html">Get the App</a></li>
+      
+        <li><a href="/accounts/login/">Sign In</a></li>
+      
+    </ul>
+    <span class="copyright">&#169; 2019 <a href="/" target="_blank">Safari</a>.</span>
+    <a href="/terms/">Terms of Service</a> /
+    <a href="/membership-agreement/">Membership Agreement</a> /
+    <a href="https://www.oreilly.com/privacy.html">Privacy Policy</a>
+  </footer>
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"transactionName":"YgdaZ0NSW0cEB0RdWltNfkZfUEFdCgofXFBHDVYdR1pQQxZeRl1QQj1aWkU=","errorBeacon":"bam.nr-data.net","licenseKey":"510f1a6865","agent":"","applicationTime":1362,"applicationID":"172641827,79672898,93931619","beacon":"bam.nr-data.net","queueTime":3}</script>
+
+
+    
+    <script src="/jsi18n/web/" charset="utf-8"></script>
+    <script src="/library/jsi18n/appcache/" charset="utf-8"></script>
+  </body>
+</html>
